@@ -360,11 +360,11 @@ func (m *File) SetBframe(v int) {
 	m.bframe = v
 }
 
-func (m *File) SetRawInputArgs(args []string) {
+func (m *File) SetRawInputArgs(args ...string) {
 	m.rawInputArgs = args
 }
 
-func (m *File) SetRawOutputArgs(args []string) {
+func (m *File) SetRawOutputArgs(args ...string) {
 	m.rawOutputArgs = args
 }
 
